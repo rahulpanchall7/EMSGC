@@ -1,7 +1,7 @@
 <launch>
   <node name="emsgc_main" pkg="emsgc" type="emsgc_main" output="screen" required="true"
-    args="/home/rahul/catkin_ws/src/EMSGC/calib/EV_IMO
-          /home/rahul/catkin_ws/src/EMSGC/cfg/evimo/box/seq00.yaml
+    args="/home/rahul/catkin_ws/src/EMSGC/calib/hall
+          /home/rahul/catkin_ws/src/EMSGC/cfg/hall/hall.yaml
           /home/rahul/workspace/hall/hall1.bag.txt
           /home/rahul/catkin_ws/src/EMSGC/result/hall">
   </node>
