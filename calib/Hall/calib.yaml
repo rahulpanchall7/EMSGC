@@ -1,0 +1,15 @@
+image_width: 640
+image_height: 480
+camera_name: T_cn_cnm1
+cam_overlaps: [0, 2]
+camera_model: pinhole
+camera_matrix:
+  rows: 3
+  cols: 3
+  data: [704.7619734668378, 0, 300.78994093351923, 0, 705.9081489448346, 229.8585626133938, 0, 0, 1]
+distortion_model: radtan
+distortion_coefficients:
+  rows: 1
+  cols: 4
+  data: [-0.364714404546865, 0.07816135096611694, 0.005085888890347796, -0.0036418328217707836]
+rostopic: /cam1/image_raw

@@ -1,6 +1,6 @@
 <launch>
   <node name="emsgc_main" pkg="emsgc" type="emsgc_main" output="screen" required="true"
-    args="/home/rahul/catkin_ws/src/EMSGC/calib/DistSurf
+    args="/home/rahul/catkin_ws/src/EMSGC/calib/Hall
           /home/rahul/catkin_ws/src/EMSGC/cfg/DistSurf/car.yaml
           /home/rahul/workspace/DistSurf/car/events.txt
           /home/rahul/catkin_ws/src/EMSGC/result/DistSurf/car">
