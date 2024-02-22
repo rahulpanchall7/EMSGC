@@ -1,0 +1,8 @@
+<launch>
+  <node name="emsgc_main" pkg="emsgc" type="emsgc_main" output="screen" required="true"
+    args="/home/rahul/catkin_ws/src/EMSGC/calib/Hall
+          /home/rahul/catkin_ws/src/EMSGC/cfg/Hall/no_cam_mov.yaml
+          /home/rahul/workspace/hall/no_cam_mov/no_cam_mov.txt
+          /home/rahul/catkin_ws/src/EMSGC/result/Hall/no_cam_mov">
+  </node>
+</launch>

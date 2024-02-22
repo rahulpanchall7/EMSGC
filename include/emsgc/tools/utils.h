@@ -202,6 +202,7 @@ inline void createDenoisingMask(
   }
   if(bBlur)
     cv::medianBlur(eventMap, mask, 3);//TODO: tue ksize
+    cv::GaussianBlur(eventMap, mask, 3, 100.0, 100.0, 4)
   else
     mask = eventMap;
 }

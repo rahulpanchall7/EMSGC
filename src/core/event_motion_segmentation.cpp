@@ -178,8 +178,9 @@ void EventMotionSegmentation::loadSpatioTemporalVolume(
     std::vector<dvs_msgs::Event> vEdgeEvents;
     tools::createDenoisingMask(it_ev_begin, it_ev_end, mask, img_size_.height, img_size_.width, false);
     cv::medianBlur(mask, mask, 1);
+    cv::GaussianBlur(mask, mask, 1, 100.0, 100.0, 4)
     tools::extractDenoisedEvents(it_ev_begin, it_ev_end, vEdgeEvents, mask);
-    LOG(INFO) << "Event denoising Finshed... " << vEdgeEvents.size() << " events are preserved.";
+    LOG(INFO) << "Event denoising median + gaussian Finshed... " << vEdgeEvents.size() << " events are preserved.";
     for(size_t i = 0; i < vEdgeEvents.size(); i++)
       stVolume_.insertEvent(vEdgeEvents[i]);
   }

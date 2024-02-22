@@ -1,0 +1,8 @@
+<launch>
+  <node name="emsgc_main" pkg="emsgc" type="emsgc_main" output="screen" required="true"
+    args="/home/rahul/catkin_ws/src/EMSGC/calib/Hall
+          /home/rahul/catkin_ws/src/EMSGC/cfg/Hall/slow_hall.yaml
+          /home/rahul/workspace/hall/slow_hall/slow_hall.txt
+          /home/rahul/catkin_ws/src/EMSGC/result/Hall/slow_hall">
+  </node>
+</launch>

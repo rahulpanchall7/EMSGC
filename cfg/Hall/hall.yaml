@@ -1,6 +1,6 @@
 num_events_per_image: 30000
 LAMBDA_data: 1 # data fidelity term
-LAMBDA_smooth: 21 # 21 # smoothness
+LAMBDA_smooth: 22 # 21 # smoothness
 LAMBDA_label: 1000 # 1000 #label cost
 BracketRow: 8 
 BracketCol: 8 

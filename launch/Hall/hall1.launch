@@ -3,6 +3,6 @@
     args="/home/rahul/catkin_ws/src/EMSGC/calib/Hall
           /home/rahul/catkin_ws/src/EMSGC/cfg/Hall/hall.yaml
           /home/rahul/workspace/hall/hall1_trim.bag.txt
-          /home/rahul/catkin_ws/src/EMSGC/result/Hall">
+          /home/rahul/catkin_ws/src/EMSGC/result/Hall/hall1">
   </node>
 </launch>
